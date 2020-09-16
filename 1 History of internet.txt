@@ -1,0 +1,65 @@
+History of Internet:-
+After cold war 1957
+
+TCP/IP communication protocol
+
+Application layer        FTP    HTTP         Telnet    DNS		RIP
+ 
+Transport Layer          TCP     UDP
+
+Internet  Layer          IPv4      IPv6 
+
+Link Layer               Ethernet      Frame relay          
+
+
+Tim berners-Lee     WWW
+
+
+IANA(Internet Assigned Numbers Authority )
+               - Responsible for Assigning IP addresses.
+
+IP= 32 bit Binary  format   11110110.10110101.11100010.10000101
+for Human understandable .....decimal format  128.42.12.125
+
+IP classified into 5 categories 
+Class A 	NETWORK(8 Bit)+HOST(24bit)
+
+Class B		NETWORK( 16 Bit)+HOST(16 bit)
+
+Class C		NETWORK(24 Bit)+HOST(8 bit)
+
+Class D         MultiCast Add((4Bit)+HOST(28bit))
+
+Class E         Reserved (Experimental)
+
+
+Transfer of Data/ Routing of the packet of data sent over internet is done using IP ADDress.
+
+http:\\        www.      uou.   ac.            in
+protocol       world 	 Domain Second level   top level
+ 		wide     Name    D Name        D name
+	       web
+
+
+Root Namer servers(13)
+Root DNS(Domain Name Server) servers
+|
+|
+.com .in   .org   .edu   ---->  TLD servers
+|
+|
+gmail.com   ieee.org    mit.edu    ----> Authoritative Servers
+
+
+
+WEB AND Internet is Different
+Web 
+SOftware application or series that run on the internet.
+Collections of documents and Resources in the form of Web Pages.
+Provide easy Access to huge range of inofrmation that is stored on computers around the world.
+
+web 1.0   static resources in form of pages 1980-90.
+web  2.0   mail dating finanical banking    early 20 century
+The Invisible Web .....pages or resources that are hidden or private for some reasons like security.
+Web Add ==Uniform Resource Locator (URL).
+ 

@@ -1,0 +1,83 @@
+HOW INTERNET WORKS?
+
+The Internet is a network of networks—millions of them, actually. If the network at your university,
+ your employer, or in your home has Internet access, it connects to an Internet service provider (ISP). 
+Many (but not all) ISPs are big telecommunications companies like Verizon, Comcast, and AT&T[2]. 
+These providers connect to one another, exchanging traffic, and ensuring your messages can get to 
+any other computer that’s online and willing to communicate with you.
+
+
+The Internet has no center and no one owns it. That’s a good thing. The Internet was designed to be
+ redundant and fault-tolerant—meaning that if one network, connecting wire, or server stops working,
+ everything else should keep on running. Rising from military research and work at educational institutions 
+dating as far back as the 1960s, the Internet really took off in the 1990s, when graphical Web browsing was invented,
+ and much of the Internet’s operating infrastructure was transitioned to be supported by private firms rather than government grants.
+
+
+Figure 1: Working of the Internet
+
+ 
+
+Enough history—let’s see how it all works! If you want to communicate with another computer on the Internet then your 
+computer needs to know the answer to three questions: What are you looking for? Where is it? And how do we get there? 
+The computers and software that make up Internet infrastructure can help provide the answers. Let’s look at how it all comes together.
+
+When you type an address into a Web browser (sometimes called a URL for uniform resource locator), you’re telling your 
+browser what you’re looking for, Figure 2 describes how to read a typical URL.
+
+
+
+ 
+  
+
+  Figure 2: Anatomy of a Web Address
+
+ 
+
+The http:// you see at the start of most Web addresses stands for hypertext transfer protocol.
+ A protocol is a set of rules for communication—sort of like grammar and vocabulary in a language like English. 
+The http protocol defines how Web browser and Web servers communicate and is designed to be independent from the computer’s 
+hardware and operating system. It doesn’t matter if messages come from a PC, a Mac, a huge mainframe, or a pocket-sized smartphone; 
+if a device speaks to another using a common protocol, then it will be heard and understood.
+
+ 
+
+The Internet supports lots of different applications, and many of these applications use their own application transfer
+ protocol to communicate with each other. The server that holds your e-mail uses something called SMTP, or simple mail transfer protocol,
+ to exchange mail with other e-mail servers throughout the world. FTP, or file transfer protocol, is used for—you guessed it—file transfer. 
+FTP is how most Web developers upload the Web pages, graphics, and other files for their Web sites. Even the Web uses different protocols.
+ When you surf to an online bank or when you’re ready to enter your payment information at the Web site of an Internet retailer, 
+the http at the beginning of your URL will probably change to https (the “s” is for secure). That means that communications between your 
+browser and server will be encrypted for safe transmission. The beauty of the Internet infrastructure is that any savvy entrepreneur can 
+create a new application that rides on top of the Internet.
+
+Hosts and Domain Names
+The next part of the URL in our diagram holds the host and domain name. Think of the domain name as the name of the network
+ you’re trying to connect to, and think of the host as the computer you’re looking for on that network.
+
+Many domains have lots of different hosts. For example, Yahoo!’s main Web site is served from the host named 
+“www” (at the address http://www.yahoo.com), but Yahoo! also runs other hosts including those named “finance” (finance.yahoo.com),
+ “sports” (sports.yahoo.com), and “games” (games.yahoo.com).
+
+Most Web sites are configured to load a default host, so you can often eliminate the host name if you want to go to the most popular
+ host on a site (the default host is almost always named “www”). Another tip: most browsers will automatically add the “http://” for you, too.
+
+Host and domain names are not case sensitive, so you can use a combination of upper and lower case letters and you’ll still get to your destination.
+
+Path Name and File Name
+Look to the right of the top-level domain and you might see a slash followed by either a path name, a file name, or both. 
+If a Web address has a path and file name, the path maps to a folder location where the file is stored on the server; the file is 
+the name of the file you’re looking for.
+
+Most Web pages end in “.html,” indicating they are in hypertext markup language. While http helps browsers and servers communicate, 
+html is the language used to create and format (render) Web pages. A file, however, doesn’t need to be .html; Web servers can deliver 
+just about any type of file: Acrobat documents (.pdf), PowerPoint documents (.ppt or .pptx), Word docs (.doc or .docx), JPEG graphic images (.jpg).
+ At some Web addresses, the file displays content for every visitor, and at others (like amazon.com), a file will contain programs that run on the 
+Web server to generate custom content just for you.
+
+ 
+
+You don’t always type a path or file name as part of a Web address, but there’s always a file lurking behind the scenes.
+ A Web address without a file name will load content from a default page. For example, when you visit “google.com,” Google 
+automatically pulls up a page called “index.html,” a file that contains the Web page that displays the Google logo, the text entry field, 
+the “Google Search” button, and so on. You might not see it, but it’s there.
